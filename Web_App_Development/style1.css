@@ -1,0 +1,32 @@
+.bg{
+    background-image: url("https://media.istockphoto.com/vectors/abstract-form-background-vector-id1160194662?k=6&m=1160194662&s=170667a&w=0&h=GRpZOOskXNOKqAItqLt3m1p1F-qPVIGlfpO187Myhoc=");
+    background-size:cover;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    backdrop-filter: blur(5px);
+}
+h1{
+    font-size: 50px;
+}
+.button{
+    height: 40px;
+    width:70px;
+    text-align: center;
+    border-radius:10px;
+    background-color: navy;
+    color: white;
+}
+@keyframes fill {
+    50% {
+      transform: translateX(-5%);
+    }
+  }
+  [anim="fill"]:not(.toggled)::after {
+    animation: fill var(--ease-spring-1) 8000ms infinite;
+  }
+  .blur{
+    backdrop-filter: blur(10px);;
+  }

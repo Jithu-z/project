@@ -1,0 +1,39 @@
+.container{
+    background-color: white
+    height: 100vh;
+    width: 100vw;
+}
+.nav-img{
+    height: 50px;
+}
+.main-bg{
+    text-align: center;
+    padding:20px;
+    font-style: ;
+}
+.aboutbg{
+    background-color: black;
+    color:aliceblue;
+    height: 100vh;
+    width: 100vw;
+    padding:40px;
+}
+.car{
+    height: 300px;
+    width: 300px;
+}
+.c-img{
+    height: 150px;
+}
+.cus{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    padding:100px
+
+}
+.icon{
+    font-size: 100px;
+    margin:30px
+}
